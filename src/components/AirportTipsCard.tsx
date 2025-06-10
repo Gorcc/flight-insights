@@ -13,7 +13,7 @@ export default function AirportTipsCard() {
         <li className="flex items-start gap-3"><BadgeCheck className="w-5 h-5 text-purple-500 mt-0.5" /><span><span className="font-semibold text-slate-900">Lounge Access</span><br />Turkish Airlines Lounge is located near Gate B8, a 5-minute walk from your gate</span></li>
         <li className="flex items-start gap-3"><Clock className="w-5 h-5 text-blue-500 mt-0.5" /><span><span className="font-semibold text-slate-900">Security Wait Time</span><br />Current wait time at Terminal 2 security: ~15 minutes</span></li>
         <li className="flex items-start gap-3"><Utensils className="w-5 h-5 text-green-500 mt-0.5" /><span><span className="font-semibold text-slate-900">Dining Options</span><br />Several restaurants available near your gate, including Istanbul Café and Simit Sarayi</span></li>
-        <li className="flex items-start gap-3"><Wifi className="w-5 h-5 text-red-400 mt-0.5" /><span><span className="font-semibold text-slate-900">Free Wi-Fi</span><br />Connect to "IST-Free-WiFi" network for 2 hours of complimentary access</span></li>
+        <li className="flex items-start gap-3"><Wifi className="w-5 h-5 text-red-400 mt-0.5" /><span><span className="font-semibold text-slate-900">Free Wi-Fi</span><br />Connect to &quot;IST-Free-WiFi&quot; network for 2 hours of complimentary access</span></li>
       </ul>
     </Card>
   );

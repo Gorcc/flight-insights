@@ -1,4 +1,3 @@
-import Image from "next/image";
 import FlightTopInfo from "../components/FlightTopInfo";
 import DashboardHeader from "../components/DashboardHeader";
 import DelayRiskCard from "../components/DelayRiskCard";

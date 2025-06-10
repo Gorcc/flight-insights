@@ -3,16 +3,14 @@ import {
   Sidebar,
   SidebarHeader,
   SidebarContent,
-  SidebarFooter,
   SidebarGroup,
   SidebarGroupLabel,
   SidebarGroupContent,
   SidebarMenu,
   SidebarMenuItem,
   SidebarMenuButton,
-  SidebarSeparator,
 } from "./ui/sidebar";
-import { Plane, Ticket, History, Bell, Settings, User2 } from "lucide-react";
+import { Plane, Ticket, History, Bell, Settings } from "lucide-react";
 
 const navLinks = [
   { label: "Dashboard", icon: Plane, active: true },
@@ -21,11 +19,6 @@ const navLinks = [
   { label: "Notifications", icon: Bell },
   { label: "Settings", icon: Settings },
 ];
-
-const mockUser = {
-  name: "Alex Morgan",
-  status: "Premium Member",
-};
 
 const mockFlight = {
   code: "TK1865",

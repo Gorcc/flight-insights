@@ -1,6 +1,7 @@
 import React from "react";
 import { Card } from "./ui/card";
 import { Plane } from "lucide-react";
+import Image from 'next/image';
 
 export default function AircraftInfoCard() {
   return (
@@ -10,7 +11,7 @@ export default function AircraftInfoCard() {
       </div>
       <div className="font-semibold text-base text-blue-900 mb-2">Aircraft Information</div>
       <div className="flex gap-4 mb-2 items-center">
-        <img src="https://cdn.turkishairlines.com/m/beaef56274a04ae/original/TK-Ucak-jpg.jpg" alt="Aircraft" className="w-28 h-20 object-contain rounded-lg bg-slate-50" />
+        <Image src="https://cdn.turkishairlines.com/m/beaef56274a04ae/original/TK-Ucak-jpg.jpg" alt="Aircraft" className="w-28 h-20 object-contain rounded-lg bg-slate-50" width={112} height={80} />
         <div className="flex flex-col gap-1 text-sm">
           <div><span className="text-muted-foreground">Aircraft Type</span> <span className="font-semibold ml-1">Boeing 777-300ER</span></div>
           <div><span className="text-muted-foreground">Registration</span> <span className="font-semibold ml-1">TC-JJT</span></div>
