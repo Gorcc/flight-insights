@@ -1,5 +1,5 @@
 
-✈️ Flight Insight
+
 Flight Insight is a modern, real-time flight dashboard that provides AI-powered insights for your upcoming journey. After booking, simply enter your flight code to unlock a wealth of information designed to make your travel experience smoother and more informed.
 
 "Flight Insight is an app currently being developed for your go-to information about your flight."
